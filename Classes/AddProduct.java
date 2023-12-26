@@ -135,9 +135,9 @@ public class AddProduct extends AddProductCond{                                 
 
         b4.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
-                String textField5 = field5.getText().toLowerCase(); // User Name
-                String textField6 = field6.getText(); // Password
-                String textField7 = field7.getText(); // Retype Password
+                String textField5 = field5.getText().toLowerCase(); // name
+                String textField6 = field6.getText(); // mg/ml
+                String textField7 = field7.getText(); // price
 
                 int result = 0;
 
